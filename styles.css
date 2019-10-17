@@ -173,3 +173,93 @@ footer {
   background-size: cover;
 }
 
+.landing {
+  min-height:80vh;
+  width:100%;
+}
+
+.welcome {
+  height:60vh;
+  width:100%;
+  background:lightblue;
+}
+
+.info {
+  display:flex;
+  flex-flow:column nowrap;
+}
+
+.intro {
+  flex:1;
+  display:flex;
+  flex-flow:row nowrap;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.craft {
+  flex:1;
+  padding:0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.craft-details {
+  flex:1;
+  padding:0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offerings {
+  max-width: 900px;
+  margin: auto;
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.offering {
+  flex:1;
+  min-width:calc(50% - 4rem);
+  display: flex;
+  flex-flow:column nowrap;
+  margin: 0 2rem;
+}
+
+.icon {
+  flex:4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  flex:1;
+}
+
+.title, h4{
+  text-align:center;
+}
+
+h4 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h4 span {
+  background:#fff;
+  padding:0 10px;
+}
+
+.details {
+  flex:3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
